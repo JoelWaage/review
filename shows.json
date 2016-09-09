@@ -1,17 +1,20 @@
 { "shows": [{
-    "title": "",
-    "location": "",
-    "genre": "",
-    "image": ""
+    "title": "The Encounter",
+    "location": "John Golden Theatre",
+    "genre": "Experimental",
+    "image": "https://media.timeout.com/images/103493141/710/399/image.jpg",
+    "description": "Performer-director Simon McBurney conjures up faraway lands using 3-D audio (each audience member gets a headset) and his own considerable storytelling skills. The head of the amazing U.K. troupe Complicite tells the story of a National Geographic photographer lost among Brazilian tribespeople."
   }, {
-    "title": "",
-    "location": "",
-    "genre": "",
-    "image": ""
+    "title": "Caught",
+    "location": "La MaMa Experimental Theatre",
+    "genre": "Drama",
+    "image": "https://media.timeout.com/images/103493305/710/399/image.jpg",
+    "description": "West Coast playwright Christopher Chen makes his NYC debut with an art-theater piece that focuses on a dissident Chinese artist and investigates questions of power, perception, authenticity and stereotype. "
   }, {
-    "title": "",
-    "location": "",
-    "genre": "",
-    "image": ""
+    "title": "Animal",
+    "location": "The Atlantic",
+    "genre": "Comedy",
+    "image": "https://atlantictheater.org/wp-content/uploads/catablog/thumbnails/Animal_Productions_Page_Artwork.png",
+    "description": "A darkly comic play about the underside of domesticity, the complexity of the brain in chaos, and the thin line between sinking and survival."
   }]
 }

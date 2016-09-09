@@ -4,7 +4,7 @@
 
 
 <ul>
-  {{#each show in |shows|}}
-    {{show-tile}}
+  {{#each model as |show|}}
+    {{show-tile show=show}}
   {{/each}}
 </ul>

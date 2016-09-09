@@ -16,5 +16,12 @@
     "genre": "Comedy",
     "image": "https://atlantictheater.org/wp-content/uploads/catablog/thumbnails/Animal_Productions_Page_Artwork.png",
     "description": "A darkly comic play about the underside of domesticity, the complexity of the brain in chaos, and the thin line between sinking and survival."
-  }]
+  }],
+"reviews": [{
+  "name": "Joel",
+  "review": "Einstein on the Beach is one of the greatest things I've ever seen"
+  }, {
+  "name": "Kat",
+  "review": "Einstein on the Beach is everything I don't like about Joel's taste in shows"
+    }]
 }

@@ -1,1 +1,33 @@
-<button class="btn btn-default">Add Show</button>
+
+{{#if addNewShow}}
+  <form>
+    <div class="input-group">
+      <span class="input-group-addon">Title:</span>
+        {{input value=title id="title" class="form-control" placeholder="Title"}}
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Company: </span>
+        {{input value=location id="location" class="form-control" placeholder="The Broad-Way"}}
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Genre: :</span>
+        {{input value=genre id="genre" class="form-control" placeholder="Darkly Comic Romance"}}
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Image URL: </span>
+        {{input value=image id="image" class="form-control" placeholder="Link Here"}}
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Description: </span>
+        {{input value=description id="description" class="form-control" placeholder="Add a Brief Description"}}
+    </div>
+    <br>
+    <button class="btn btn-default btn-block new-button" {{action 'save1'}}>Submit Listing</button>
+  </form>
+{{else}}
+  <button class="btn btn-default" {{action 'showFormDisplay'}}>Add Show</button>
+{{/if}}
